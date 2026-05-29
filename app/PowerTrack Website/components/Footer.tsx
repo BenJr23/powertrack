@@ -89,26 +89,10 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <Link
-                  href={paths.support}
-                  className="text-powertrack-muted hover:text-powertrack-accent-teal transition-colors"
-                >
-                  Help Center
-                </Link>
-              </li>
-              <li>
-                <Link
                   href={paths.faq}
                   className="text-powertrack-muted hover:text-powertrack-accent-teal transition-colors"
                 >
                   FAQ
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={paths.contact}
-                  className="text-powertrack-muted hover:text-powertrack-accent-teal transition-colors"
-                >
-                  Contact Us
                 </Link>
               </li>
               <li>

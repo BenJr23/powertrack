@@ -15,9 +15,7 @@ export function Navbar() {
     { name: "Home", path: paths.home },
     { name: "Pricing", path: paths.pricing },
     { name: "About", path: paths.about },
-    { name: "Support", path: paths.support },
     { name: "FAQ", path: paths.faq },
-    { name: "Contact", path: paths.contact },
   ];
 
   return (
