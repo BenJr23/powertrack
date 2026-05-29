@@ -42,7 +42,7 @@ export default function PricingPage() {
     validIdFront: null as HTMLInputElement | null,
     validIdBack: null as HTMLInputElement | null,
   });
-  const [state, formAction] = useActionState<PreOrderActionState>(
+  const [state, formAction] = useActionState<PreOrderActionState, FormData>(
     createPreOrder,
     { status: "idle" }
   );

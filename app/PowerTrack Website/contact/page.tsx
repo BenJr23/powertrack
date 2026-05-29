@@ -25,7 +25,7 @@ function SubmitButton() {
 }
 
 export default function ContactPage() {
-  const [state, formAction] = useActionState<ContactActionState>(
+  const [state, formAction] = useActionState<ContactActionState, FormData>(
     createContactMessage,
     { status: "idle" }
   );
